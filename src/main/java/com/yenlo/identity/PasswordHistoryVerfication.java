@@ -38,14 +38,14 @@ public class PasswordHistoryVerfication {
 
     }
 
-    public boolean addnewUser(Connection connection, String userID, String password) throws UserStoreException {
-        log.info("inside adding user method");
-        if (null == userPasswordManagement) {
-            userPasswordManagement = new UserPasswordManagement(connection, primaryTable);
-        }
-        return userPasswordManagement.addNewUser(userID, password);
-
-    }
+//    public boolean addnewUser(Connection connection, String userID, String password) throws UserStoreException {
+//        log.info("inside adding user method");
+//        if (null == userPasswordManagement) {
+//            userPasswordManagement = new UserPasswordManagement(connection, primaryTable);
+//        }
+//        return userPasswordManagement.addNewUser(userID, password);
+//
+//    }
 
     public static void main(String args[]) {
 
