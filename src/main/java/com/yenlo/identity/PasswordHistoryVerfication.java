@@ -73,7 +73,7 @@ public class PasswordHistoryVerfication {
 //        readDataFromJson();
 //        createTableIfNotExist(connection);
 
-        UserPasswordManagement passwordManagement = new UserPasswordManagement(connection, primaryTable);
+//        UserPasswordManagement passwordManagement = new UserPasswordManagement(connection, primaryTable);
 //        try {
 //            passwordManagement.addNewUser("1", "1272");
 //        } catch (UserStoreException e) {
