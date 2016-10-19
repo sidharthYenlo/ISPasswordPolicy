@@ -51,21 +51,21 @@ public class PasswordHistoryVerfication {
 
 
 ////      "jdbc:mysql://localhost:3306/"+databaseName,"root", "india@1947"
-        String dataBaseClassName = "com.mysql.jdbc.Driver";//"com.mysql.jdbc.Driver"
-        String databaseDriverName = "jdbc:mysql:";//"jdbc:mysql:"
-        String ipAddress = "localhost";
-        String portNumber = "3306";
-        String DataBaseName = "firstSampleDB";
-        String userName = "root";
-        String password = "password";
-        DataBaseDetails dataBaseDetails = new DataBaseDetails.Builder()
-                .dataBaseClassName(dataBaseClassName)
-                .databaseDriverName(databaseDriverName)
-                .dataBaseName(DataBaseName)
-                .ipAddress(ipAddress)
-                .portNumber(portNumber)
-                .userName(userName)
-                .password(password).build();
+//        String dataBaseClassName = "com.mysql.jdbc.Driver";//"com.mysql.jdbc.Driver"
+//        String databaseDriverName = "jdbc:mysql:";//"jdbc:mysql:"
+//        String ipAddress = "localhost";
+//        String portNumber = "3306";
+//        String DataBaseName = "firstSampleDB";
+//        String userName = "root";
+//        String password = "password";
+//        DataBaseDetails dataBaseDetails = new DataBaseDetails.Builder()
+//                .dataBaseClassName(dataBaseClassName)
+//                .databaseDriverName(databaseDriverName)
+//                .dataBaseName(DataBaseName)
+//                .ipAddress(ipAddress)
+//                .portNumber(portNumber)
+//                .userName(userName)
+//                .password(password).build();
 
 
 //        DatabaseConnectionManager dataBaseConnectionManager = DatabaseConnectionManager.getInstance();
