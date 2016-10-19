@@ -68,10 +68,10 @@ public class PasswordHistoryVerfication {
                 .password(password).build();
 
 
-        DatabaseConnectionManager dataBaseConnectionManager = DatabaseConnectionManager.getInstance();
-        Connection connection = dataBaseConnectionManager.connectToDatabase(dataBaseDetails);
-        readDataFromJson();
-        createTableIfNotExist(connection);
+//        DatabaseConnectionManager dataBaseConnectionManager = DatabaseConnectionManager.getInstance();
+//        Connection connection = dataBaseConnectionManager.connectToDatabase(dataBaseDetails);
+//        readDataFromJson();
+//        createTableIfNotExist(connection);
 
         UserPasswordManagement passwordManagement = new UserPasswordManagement(connection, primaryTable);
 //        try {
